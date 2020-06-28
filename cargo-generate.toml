@@ -1,6 +1,6 @@
 [template]
 include = [
-    "Cargo.toml",
-    ".gitignore"
+    "Cargo.toml", 
+    "LICENSE", 
+    ".github/workflows/release.yml"
 ]
-exclude = [ "*.gitkeep" ]
