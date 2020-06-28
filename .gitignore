@@ -1,0 +1,9 @@
+# VS Code files
+*.code-workspace
+# rust target files
+# borrowed from https://github.com/ashleygwilliams/wasm-pack-template/blob/master/.gitignore
+./target
+**/*.rs.bk
+Cargo.lock
+bin/
+pkg/

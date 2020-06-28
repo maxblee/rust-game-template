@@ -1,0 +1,10 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+edition = "{{'now' | date: '%Y'}}"
+
+[profile.dev]
+opt-level = 3
+
+[dependencies]

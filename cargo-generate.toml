@@ -1,0 +1,6 @@
+[template]
+include = [
+    "Cargo.toml",
+    ".gitignore"
+]
+exclude = [ "*.gitkeep" ]
