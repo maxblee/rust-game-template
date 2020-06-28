@@ -1,6 +1,5 @@
 [template]
 include = [
     "Cargo.toml", 
-    "LICENSE", 
-    ".github/workflows/release.yml"
+    "LICENSE"
 ]
