@@ -10,7 +10,9 @@ name: Create Release
 env:
   # Could, potentially automatically parse
   # the bin name, but let's do it automatically for now.
-  RELEASE_BIN: {{crate_name}}
+  # ideally, would be able to change this, but uh this works for now
+  # TODO: Change the name to the name of your release
+  RELEASE_BIN: mygame
 
   # Space separated paths to include in the archive.
   # Start relative paths with a dot if you don't want
